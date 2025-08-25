@@ -1,64 +1,57 @@
-# 🏥 Pharmacy Management System
+🏥 Pharmacy Management System
+A comprehensive Pharmacy Management System built with Laravel 8, PHP, MySQL, and Bootstrap 5, designed to streamline pharmacy operations with role-based access control, inventory management, billing, and reporting capabilities.
 
-A comprehensive **Pharmacy Management System** built with **Laravel 8**, featuring role-based access control, inventory management, billing, and reporting capabilities.
+📖 Project Overview
+The Pharmacy Management System (PMS) enables seamless management of medicines, orders, and users with distinct roles such as Admin, Pharmacist, Supplier, and Customer. It provides automated workflows for inventory tracking, billing, order management, and real-time reporting with a modern, responsive UI.
 
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+🚀 Features
 
-## 📋 Table of Contents
+🔐 Role-Based Access Control
+Admin: Complete system management
+Pharmacist: Manage medicines, billing, and sales reports
+Supplier: Bulk upload medicines, manage stock
+Customer: Browse medicines, place orders, track purchases
 
-- [Features](#-features)
-- [System Requirements](#-system-requirements)
-- [Installation](#-installation)
-- [Configuration](#-configuration)
-- [Database Setup](#-database-setup)
-- [Default Credentials](#-default-credentials)
-- [User Roles](#-user-roles)
-- [API Documentation](#-api-documentation)
-- [File Structure](#-file-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
+💊 Medicine & Inventory Management
+CRUD operations for medicines
+Photo upload and management
+Bulk Excel import for suppliers
+Real-time stock alerts (< 50 items)
+Automatic email notifications
+Export functionality (Excel/PDF)
 
-## 🚀 Features
+💳 Billing & Orders
+Professional invoice generation
+PDF invoice download
+Multiple payment methods
+Order tracking system
+Sales reports (daily/weekly/monthly/yearly)
 
-### 🔐 **Role-Based Access Control**
-- **Admin**: Complete system management
-- **Pharmacist**: Medicine management, billing, sales reports
-- **Supplier**: Bulk medicine upload, inventory management
-- **Customer**: Browse medicines, place orders, track orders
+📊 Dashboard & Reporting
+Role-specific dashboards
+Real-time analytics
+Sales and inventory reports
+Export capabilities
+Interactive charts
 
-### 💊 **Medicine & Inventory Management**
-- CRUD operations for medicines
-- Photo upload and management
-- Bulk Excel import for suppliers
-- Real-time stock alerts (< 50 items)
-- Automatic email notifications
-- Export functionality (Excel/PDF)
+✉️ Email Notifications
+Password setup for new users
+Stock alert notifications
+Restock confirmations
+Order status updates
 
-### 💳 **Billing & Orders**
-- Professional invoice generation
-- PDF invoice download
-- Multiple payment methods
-- Order tracking system
-- Sales reports (daily/weekly/monthly/yearly)
+🎨 Modern UI/UX
+Bootstrap 5 responsive design
+Professional invoice templates
+Mobile-friendly interface
 
-### 📊 **Dashboard & Reporting**
-- Role-specific dashboards
-- Real-time analytics
-- Sales and inventory reports
-- Export capabilities
-- Interactive charts
+🛠️ Tech Stack
+Backend: Laravel 8, PHP
+Frontend: Bootstrap 5, JavaScript
+Database: MySQL
+Other: Excel/PDF Export, Email Notifications
 
-### ✉️ **Email Notifications**
-- Password setup emails for new users
-- Stock alert notifications
-- Restock confirmations
-- Order status updates
-
-### 🎨 **Modern UI/UX**
-- Bootstrap 5 responsive design
-- Professional invoice templates
-- Mobile-friendly interface
-- Real-time
+📋 System Requirements
+PHP ^7.4 or ^8.0
+Composer
+MySQL 5.7
